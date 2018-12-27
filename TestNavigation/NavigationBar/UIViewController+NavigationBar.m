@@ -7,7 +7,17 @@
 //
 
 #import "UIViewController+NavigationBar.h"
+#import "HDDefaultNaviBar.h"
+#import "HDScreenInfo.h"
 
 @implementation UIViewController (NavigationBar)
+
++ (HDDefaultNaviBar *)defaultBar {
+    HDDefaultNaviBar *customerBar = [[HDDefaultNaviBar alloc] initWithFrame:CGRectMake(0, 0, HDScreenInfo.width, HDScreenInfo.navigationBarHeight + HDScreenInfo.statusBarHeight)];
+    customerBar.backgroundColor = [UIColor whiteColor];
+    customerBar.title = @"测试title";
+    customerBar.backIcon = [UIImage imageNamed:@"NaviBack"];
+    return customerBar;
+}
 
 @end

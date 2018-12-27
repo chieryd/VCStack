@@ -7,25 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C017D21821C7A5E400F0540B /* HDVCStackAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C017D21721C7A5E400F0540B /* HDVCStackAnimation.m */; };
+		C017D21C21C7A77000F0540B /* HDScreenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C017D21B21C7A77000F0540B /* HDScreenInfo.m */; };
+		C017D21F21C7A99800F0540B /* HDVCStackPanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = C017D21E21C7A99800F0540B /* HDVCStackPanGesture.m */; };
+		C017D24621C8E82600F0540B /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C017D24521C8E82600F0540B /* UIViewController+NavigationBar.m */; };
+		C017D24921C8E93200F0540B /* HDDefaultNaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C017D24821C8E93200F0540B /* HDDefaultNaviBar.m */; };
+		C017D24D21C8F8D200F0540B /* NSString+HDSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C017D24C21C8F8D200F0540B /* NSString+HDSize.m */; };
 		C094B47C21C38DD200AA258B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C094B47B21C38DD200AA258B /* AppDelegate.m */; };
 		C094B47F21C38DD200AA258B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C094B47E21C38DD200AA258B /* ViewController.m */; };
-		C094B48221C38DD200AA258B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C094B48021C38DD200AA258B /* Main.storyboard */; };
 		C094B48421C38DD300AA258B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C094B48321C38DD300AA258B /* Assets.xcassets */; };
 		C094B48721C38DD300AA258B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C094B48521C38DD300AA258B /* LaunchScreen.storyboard */; };
 		C094B48A21C38DD300AA258B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C094B48921C38DD300AA258B /* main.m */; };
+		C094B49221C38E5200AA258B /* HDVCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C094B49121C38E5200AA258B /* HDVCStack.m */; };
+		C0E1101421C396DC00D61FC7 /* HDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E1101321C396DC00D61FC7 /* HDRootViewController.m */; };
+		C0E1101721C397C100D61FC7 /* HDSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E1101621C397C100D61FC7 /* HDSubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C017D21621C7A5E400F0540B /* HDVCStackAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVCStackAnimation.h; sourceTree = "<group>"; };
+		C017D21721C7A5E400F0540B /* HDVCStackAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVCStackAnimation.m; sourceTree = "<group>"; };
+		C017D21921C7A62B00F0540B /* HDVCStackAnimationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVCStackAnimationProtocol.h; sourceTree = "<group>"; };
+		C017D21A21C7A77000F0540B /* HDScreenInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDScreenInfo.h; sourceTree = "<group>"; };
+		C017D21B21C7A77000F0540B /* HDScreenInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDScreenInfo.m; sourceTree = "<group>"; };
+		C017D21D21C7A99800F0540B /* HDVCStackPanGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVCStackPanGesture.h; sourceTree = "<group>"; };
+		C017D21E21C7A99800F0540B /* HDVCStackPanGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVCStackPanGesture.m; sourceTree = "<group>"; };
+		C017D24321C8D2D700F0540B /* HDVCStackPanProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVCStackPanProtocol.h; sourceTree = "<group>"; };
+		C017D24421C8E82600F0540B /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		C017D24521C8E82600F0540B /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		C017D24721C8E93200F0540B /* HDDefaultNaviBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDDefaultNaviBar.h; sourceTree = "<group>"; };
+		C017D24821C8E93200F0540B /* HDDefaultNaviBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDDefaultNaviBar.m; sourceTree = "<group>"; };
+		C017D24B21C8F8D200F0540B /* NSString+HDSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HDSize.h"; sourceTree = "<group>"; };
+		C017D24C21C8F8D200F0540B /* NSString+HDSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HDSize.m"; sourceTree = "<group>"; };
 		C094B47721C38DD200AA258B /* TestNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C094B47A21C38DD200AA258B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C094B47B21C38DD200AA258B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C094B47D21C38DD200AA258B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C094B47E21C38DD200AA258B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C094B48121C38DD200AA258B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C094B48321C38DD300AA258B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C094B48621C38DD300AA258B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C094B48821C38DD300AA258B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C094B48921C38DD300AA258B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C094B49021C38E5200AA258B /* HDVCStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDVCStack.h; sourceTree = "<group>"; };
+		C094B49121C38E5200AA258B /* HDVCStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDVCStack.m; sourceTree = "<group>"; };
+		C0E1101221C396DC00D61FC7 /* HDRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDRootViewController.h; sourceTree = "<group>"; };
+		C0E1101321C396DC00D61FC7 /* HDRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDRootViewController.m; sourceTree = "<group>"; };
+		C0E1101521C397C100D61FC7 /* HDSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDSubViewController.h; sourceTree = "<group>"; };
+		C0E1101621C397C100D61FC7 /* HDSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDSubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C017D21521C7A5B100F0540B /* VCStack */ = {
+			isa = PBXGroup;
+			children = (
+				C094B49021C38E5200AA258B /* HDVCStack.h */,
+				C094B49121C38E5200AA258B /* HDVCStack.m */,
+				C017D21621C7A5E400F0540B /* HDVCStackAnimation.h */,
+				C017D21721C7A5E400F0540B /* HDVCStackAnimation.m */,
+				C017D21921C7A62B00F0540B /* HDVCStackAnimationProtocol.h */,
+				C017D21D21C7A99800F0540B /* HDVCStackPanGesture.h */,
+				C017D21E21C7A99800F0540B /* HDVCStackPanGesture.m */,
+				C017D24321C8D2D700F0540B /* HDVCStackPanProtocol.h */,
+			);
+			path = VCStack;
+			sourceTree = "<group>";
+		};
+		C017D24221C8B35800F0540B /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C017D24421C8E82600F0540B /* UIViewController+NavigationBar.h */,
+				C017D24521C8E82600F0540B /* UIViewController+NavigationBar.m */,
+				C017D24721C8E93200F0540B /* HDDefaultNaviBar.h */,
+				C017D24821C8E93200F0540B /* HDDefaultNaviBar.m */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		C017D24A21C8F88700F0540B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C017D21A21C7A77000F0540B /* HDScreenInfo.h */,
+				C017D21B21C7A77000F0540B /* HDScreenInfo.m */,
+				C017D24B21C8F8D200F0540B /* NSString+HDSize.h */,
+				C017D24C21C8F8D200F0540B /* NSString+HDSize.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		C094B46E21C38DD200AA258B = {
 			isa = PBXGroup;
 			children = (
@@ -58,15 +122,21 @@
 		C094B47921C38DD200AA258B /* TestNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				C017D24A21C8F88700F0540B /* Tools */,
+				C017D24221C8B35800F0540B /* NavigationBar */,
+				C017D21521C7A5B100F0540B /* VCStack */,
 				C094B47A21C38DD200AA258B /* AppDelegate.h */,
 				C094B47B21C38DD200AA258B /* AppDelegate.m */,
 				C094B47D21C38DD200AA258B /* ViewController.h */,
 				C094B47E21C38DD200AA258B /* ViewController.m */,
-				C094B48021C38DD200AA258B /* Main.storyboard */,
 				C094B48321C38DD300AA258B /* Assets.xcassets */,
 				C094B48521C38DD300AA258B /* LaunchScreen.storyboard */,
 				C094B48821C38DD300AA258B /* Info.plist */,
 				C094B48921C38DD300AA258B /* main.m */,
+				C0E1101221C396DC00D61FC7 /* HDRootViewController.h */,
+				C0E1101321C396DC00D61FC7 /* HDRootViewController.m */,
+				C0E1101521C397C100D61FC7 /* HDSubViewController.h */,
+				C0E1101621C397C100D61FC7 /* HDSubViewController.m */,
 			);
 			path = TestNavigation;
 			sourceTree = "<group>";
@@ -130,7 +200,6 @@
 			files = (
 				C094B48721C38DD300AA258B /* LaunchScreen.storyboard in Resources */,
 				C094B48421C38DD300AA258B /* Assets.xcassets in Resources */,
-				C094B48221C38DD200AA258B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +210,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017D21821C7A5E400F0540B /* HDVCStackAnimation.m in Sources */,
+				C017D21C21C7A77000F0540B /* HDScreenInfo.m in Sources */,
 				C094B47F21C38DD200AA258B /* ViewController.m in Sources */,
 				C094B48A21C38DD300AA258B /* main.m in Sources */,
+				C017D24921C8E93200F0540B /* HDDefaultNaviBar.m in Sources */,
+				C017D24621C8E82600F0540B /* UIViewController+NavigationBar.m in Sources */,
+				C017D24D21C8F8D200F0540B /* NSString+HDSize.m in Sources */,
 				C094B47C21C38DD200AA258B /* AppDelegate.m in Sources */,
+				C0E1101721C397C100D61FC7 /* HDSubViewController.m in Sources */,
+				C0E1101421C396DC00D61FC7 /* HDRootViewController.m in Sources */,
+				C094B49221C38E5200AA258B /* HDVCStack.m in Sources */,
+				C017D21F21C7A99800F0540B /* HDVCStackPanGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C094B48021C38DD200AA258B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C094B48121C38DD200AA258B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C094B48521C38DD300AA258B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

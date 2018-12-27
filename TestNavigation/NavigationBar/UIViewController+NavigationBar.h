@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HDDefaultNaviBar.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (NavigationBar)
++ (HDDefaultNaviBar *)defaultBar;
 
 @end
 
